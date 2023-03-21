@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign Up | By Code Info</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id = "login">
+    <div class="signup-box">
+      <h1>Sign Up</h1>
+      <h4>It's free and only takes a minute</h4>
+      <form action = includes/signup.inc.php method = "post"> <!-- we need includes/signup.inc.php here but lets wait-->
+        <label>First Name</label>
+        <input type="text" name = "first" placeholder="First Name..." />
+        <label>Last Name</label>
+        <input type="text" name = "last" placeholder="Last Name..." />
+        <label>Email</label>
+        <input type="text" name = "mail" placeholder="Enter your email..." />
+        <label>Username</label>
+        <input type="text" name = "uid" placeholder="Enter your new Username..." />
+        <label>Password</label>
+        <input type="password" name = "pass" placeholder="Enter your new Password..." />
+        <label>Confirm Password</label>
+        <input type="password" name = "pass-repeat" placeholder="Enter your Password again..." />
+        <button type="submit" class = "button" name = "signup-submit">Sign Up!</button>
+      </form>
+    </div>
+    <p class="para-1">
+      Already have an account? <a href="login.html">Login here</a>
+    </p>
+  </body>
+</html>

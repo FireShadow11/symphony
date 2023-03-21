@@ -1,0 +1,113 @@
+body {
+    background: linear-gradient(rgb(0, 0, 0) 50%,#eb4949);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+}
+  
+.signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    transform: translateY(150px);
+}
+  
+.login-box {
+    width: 360px;
+    height: 360px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 7px 7px 10px rgb(0, 0, 0);
+    transform: translateY(280px);
+}
+  
+h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+  
+h4 {
+    text-align: center;
+}
+  
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+  
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+  
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid rgb(118, 0, 0);
+    border-radius: 6px;
+    outline: none;
+}
+
+
+.button {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #721414;
+    color: white;
+    font-size: 18px;
+}
+
+/*
+button.pseudo:hover{
+    background-color: turquoise;
+    color:white
+}
+
+button.pseudo:active{
+    background-color: rgb(14, 160, 145);
+}
+
+*/
+p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    transform: translateY(280px);
+}
+
+.para-1 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+    transform: translateY(150px);
+  }
+  .para-1 a {
+    color: #ffffff;
+    transform: translateY(150px);
+}
+
+.para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+    transform: translateY(280px);
+}
+
+.para-2 a {
+    color: #ffffff;
+    transform: translateY(280px);
+}
+  
